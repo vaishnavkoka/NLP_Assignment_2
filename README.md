@@ -11,6 +11,8 @@ This project addresses two main tasks: training six different tokenizers on a 10
 
 ## Project Tasks
 
+---
+
 ### Task 1: Tokenizer Training
 We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
 1. **BertWordPieceTokenizer**
@@ -19,6 +21,8 @@ We trained six different tokenizers on samples from a previously scraped dataset
 4. **ByteLevelBPETokenizer**
 5. **SentencePieceUnigramTokenizer**
 6. **SpaCyTokenizer**
+
+---
 
 ### Task 1: Tokenizer Training
 We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
@@ -36,18 +40,20 @@ We trained six different tokenizers on samples from a previously scraped dataset
 
 Each tokenizer was evaluated on fertility, and a matrix showing fertility scores and dataset size was generated. This matrix, available in [NLP-Assignment-2_Tokenizer_Training.pdf](link-to-pdf), showed that **SentencePieceBPETokenizer** had the lowest fertility score and was selected as the optimal tokenizer for Task 2.
 
+---
+
 ### Task 2: Model Training
+
+---
 The **LLaMA** model architecture was adjusted to ensure fewer than 100M parameters for efficient training. Using the SentencePieceBPETokenizer, we tokenized our dataset and trained the model, logging perplexity scores at each 0.1 epoch. A matrix of perplexity scores by epoch was generated and added to the repository. Additionally, the model was tested on 10 sample prompts, with test outputs available in the repository screenshots.
 
 ---
 ![perplexity_matrix](https://github.com/user-attachments/assets/c02a1cbd-03b9-4d43-8539-13379ec494cc)
-Fig: perplexity score of Llama model for every 0.1 epoch
+`Fig: perplexity score of Llama model for every 0.1 epoch`
 
 ![perplexity_score](https://github.com/user-attachments/assets/f1af8dbb-ee0a-40a0-b4cb-f4f0503a6702)
-Fig: perplexity score of prompts
+`Fig: perplexity score of prompts`
 
-
- 
 
 ---
 
