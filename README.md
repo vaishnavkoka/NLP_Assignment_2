@@ -48,8 +48,8 @@ Each tokenizer was evaluated on fertility, and a matrix showing fertility scores
 The **LLaMA** model architecture was adjusted to ensure fewer than 100M parameters for efficient training. Using the SentencePieceBPETokenizer, we tokenized our dataset and trained the model, logging perplexity scores at each 0.1 epoch. A matrix of perplexity scores by epoch was generated and added to the repository. Additionally, the model was tested on 10 sample prompts, with test outputs available in the repository screenshots.
 
 ---
-![perplexity_matrix](https://github.com/user-attachments/assets/c02a1cbd-03b9-4d43-8539-13379ec494cc)
-`Fig: perplexity score of Llama model for every 0.1 epoch`
+![Model_training](https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071)
+`Fig: model training for every 0.1 epoch`
 
 ![perplexity_score](https://github.com/user-attachments/assets/f1af8dbb-ee0a-40a0-b4cb-f4f0503a6702)
 `Fig: perplexity score of prompts`
