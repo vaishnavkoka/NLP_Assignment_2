@@ -74,17 +74,19 @@ This project involves training a modified LLaMA model with fewer than 100M param
 
 
 
+![training_epoch](https://github.com/user-attachments/assets/4dab3cfd-0b45-4192-ae76-cd2efeac59db)
+
+
+`Fig2: Model trained on 4.7M tokens for 10 epocs in 9 hours on 2 GPU T4`
+
+
+
 ### Task 2.2: Model Prediction
 
 ![model_output_for_prompts](https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a)
 
-`Fig2: Prompts output`
+`Fig3: Prompts output`
 
-
-![training_epoch](https://github.com/user-attachments/assets/4dab3cfd-0b45-4192-ae76-cd2efeac59db)
-
-
-`Fig3: Model trained on 4.7M tokens for 10 epocs in 9 hours on 2 GPU T4`
 
 
 ### Contributions
