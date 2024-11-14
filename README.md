@@ -105,6 +105,8 @@ Each team member contributed significantly to both tasks, as detailed below:
 ## Outputs
 
 - **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/NLP-%20Assignment-2_Tokenizer_Training.pdf).
+  ![image](https://github.com/user-attachments/assets/1bcbeba8-9c55-4dd8-8151-eac9f08d13b2)
+
 - **Model Perplexity Matrix**: Logged in screenshots folder, showing scores for each epoch.
 - **Prompt Output Tests**: Screenshots of model responses for 10 test prompts.
 
