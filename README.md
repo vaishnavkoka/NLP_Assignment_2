@@ -79,12 +79,6 @@ Each team member contributed significantly to both tasks, as detailed below:
   - Developed comparison framework for fertility metrics evaluation.
   - Supported tokenizer selection and training script configuration.
   - Created fertility and perplexity matrix visualizations.
-
-- **Bharat Keshav**
-  - Managed dataset preprocessing and SentencePieceBPETokenizer configuration for training.
-  - Logged model performance across 10 prompts in Task 2 for consistency.
-  - Assisted with readme documentation and provided additional resources.
-
 ---
 
 ## Usage
