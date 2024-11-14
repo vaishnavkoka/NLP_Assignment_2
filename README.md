@@ -59,7 +59,14 @@ Each tokenizer was evaluated on fertility, and a matrix showing fertility scores
 ### Task 2.1: Model Training
 
 ---
-The **LLaMA** model architecture was adjusted to ensure fewer than 100M parameters for efficient training. Using the SentencePieceBPETokenizer, we tokenized our dataset and trained the model, logging perplexity scores at each 0.1 epoch. A matrix of perplexity scores by epoch was generated and added to the repository. Additionally, the model was tested on 10 sample prompts, with test outputs available in the repository screenshots.
+#### LLaMA Model Training and Evaluation
+This project involves training a modified LLaMA model with fewer than 100M parameters for efficient training and evaluation. The model is tokenized using SentencePieceBPETokenizer.
+
+- Tokenized dataset using SentencePieceBPETokenizer.
+- Trained the model and logged *perplexity scores* at every 0.1 epoch.
+- Generated a matrix of perplexity scores by epoch for analysis.
+- Tested the model on 10 sample prompts.
+- *Output screenshots* showcasing the model's performance are included in the repository.
 
 
 | Model weights                     | Kaggle Link                               |
