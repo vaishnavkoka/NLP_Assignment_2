@@ -30,11 +30,11 @@ We trained six different tokenizers on samples from a previously scraped dataset
 | Tokenizer                        | Kaggle Link                               |
 |-----------------------------------|-------------------------------------------|
 | **BertWordPieceTokenizer**        | [🟩 Kaggle Link](https://www.kaggle.com/code/vaishnavkoka24310069/bertwordpiecetokenizer/) |
-| **SentencePieceBPETokenizer**     | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
-| **gpt2byteleveltokenizer**        | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
-| **ByteLevelBPETokenizer**         | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
-| **SentencePieceUnigramTokenizer** | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
-| **SpaCyTokenizer**                | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
+| **SentencePieceBPETokenizer**     | [🟩 Kaggle Link](https://www.kaggle.com/code/ramanand9/sentencepiecebpetokenizer/) |
+| **gpt2byteleveltokenizer**        | [🟩 Kaggle Link](https://www.kaggle.com/code/vaishnavkoka24310069/gpt2byteleveltokenizer/) |
+| **ByteLevelBPETokenizer**         | [🟩 Kaggle Link](https://www.kaggle.com/code/vaishnavkoka24310069/bytelevelbpetokenizer/) |
+| **SentencePieceUnigramTokenizer** | [🟩 Kaggle Link](https://www.kaggle.com/code/vaishnavkoka24310069/sentencepieceunigramtokenizer/) |
+| **SpaCyTokenizer**                | [🟩 Kaggle Link](https://www.kaggle.com/code/vaishnavkoka24310069/spacytokenizer/) |
 
 
 
