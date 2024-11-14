@@ -38,7 +38,7 @@ We trained six different tokenizers on samples from a previously scraped dataset
 
 
 
-Each tokenizer was evaluated on fertility, and a matrix showing fertility scores and dataset size was generated. This matrix, available in [NLP-Assignment-2_Tokenizer_Training.pdf](link-to-pdf), showed that **SentencePieceBPETokenizer** had the lowest fertility score and was selected as the optimal tokenizer for Task 2.
+Each tokenizer was evaluated on fertility, and a matrix showing fertility scores and dataset size was generated. This matrix, available in [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/NLP-%20Assignment-2_Tokenizer_Training.pdf), showed that **SentencePieceBPETokenizer** had the lowest fertility score and was selected as the optimal tokenizer for Task 2.
 
 ---
 
@@ -104,7 +104,7 @@ Each team member contributed significantly to both tasks, as detailed below:
 
 ## Outputs
 
-- **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](link-to-pdf).
+- **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/NLP-%20Assignment-2_Tokenizer_Training.pdf).
 - **Model Perplexity Matrix**: Logged in screenshots folder, showing scores for each epoch.
 - **Prompt Output Tests**: Screenshots of model responses for 10 test prompts.
 
