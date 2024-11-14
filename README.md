@@ -51,8 +51,7 @@ The **LLaMA** model architecture was adjusted to ensure fewer than 100M paramete
 ![Model_training](https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071)
 `Fig: model training for every 0.1 epoch`
 
-![perplexity_score](https://github.com/user-attachments/assets/f1af8dbb-ee0a-40a0-b4cb-f4f0503a6702)
-`Fig: perplexity score of prompts`
+![model_output_for_prompts](https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a)
 
 
 ---
