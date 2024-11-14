@@ -2,8 +2,6 @@
 
 ## NLP_Team_13: Tokenizer Training and Model Training
 
----
-
 ### Overview
 This project focuses on two main tasks: training tokenizers and fine-tuning a language model for NLP performance.
 
@@ -18,11 +16,9 @@ This project focuses on two main tasks: training tokenizers and fine-tuning a la
   - Recorded perplexity scores at every 0.1 epoch.
   - Created a matrix of perplexity scores for each epoch.
   - Tested the fine-tuned model on 10 prompts to evaluate performance.
----
+
 
 ### Project Tasks
-
----
 
 ### Task 1.1: Tokenizer Training
 We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
@@ -54,11 +50,9 @@ Each tokenizer was evaluated on fertility, and a matrix showing fertility scores
 
 
 
----
 
 ### Task 2.1: Model Training
 
----
 #### LLaMA Model Training and Evaluation
 This project involves training a modified LLaMA model with fewer than 100M parameters for efficient training and evaluation. The model is tokenized using SentencePieceBPETokenizer.
 
@@ -78,11 +72,9 @@ This project involves training a modified LLaMA model with fewer than 100M param
 
 `Fig1: model training for every 0.1 epoch`
 
----
+
 
 ### Task 2.2: Model Prediction
-
----
 
 ![model_output_for_prompts](https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a)
 
@@ -94,35 +86,17 @@ This project involves training a modified LLaMA model with fewer than 100M param
 
 `Fig3: Model trained on 4.7M tokens for 10 epocs in 9 hours on 2 GPU T4`
 
----
 
 ### Contributions
-
 Each team member contributed significantly to both tasks, as detailed below:
+- **Vaishnav Koka**: Created code for Tokenizers and trained tokenizers to calculate fertility scores, and Git Hub documentation.
+- **Ramanand**: Created datasets, did Transformer model training and fine-tuning, and Git Hub documentation.
+- **Isha Jain**: Created code for tokenizers and trained tokenizers to calculate fertility scores, and Git Hub documentation.
+- **Yash Sahu**: Created tokenizers code, transformer fine-tuning, and Git Hub documentation.
 
-- **Vaishnav Koka**
-  - Set up and organized the Task 1 training pipeline.
-  - Calculated and compiled fertility scores, generating the matrix.
-  - Tested and documented model outputs for 10 prompts in Task 2.
 
-- **Ramanand**
-  - Fine-tuned the LLaMA model to meet the <100M parameter constraint.
-  - Conducted training on the tokenized dataset and recorded perplexity scores at each epoch.
-  - Created performance metric reports and final model output documentation.
-
-- **Isha Jain**
-  - Configured tokenizer training with multiprocessing for efficient dataset handling.
-  - Conducted initial fertility analysis and supported SentencePieceBPETokenizer selection.
-  - Documented Task 1 outputs and validated score accuracy.
-
-- **Yash Sahu**
-  - Developed comparison framework for fertility metrics evaluation.
-  - Supported tokenizer selection and training script configuration.
-  - Created fertility and perplexity matrix visualizations.
----
-
-## Acknowledgments
-Our team collaborated effectively to parallelize and document each stage of the project. Special thanks to each member for their dedication to completing the tasks in a timely and efficient manner.
-
---- 
+### Acknowledgments
+- Our team worked in a synchronous manner so as to not burden a single person, and get the work done more effectively and in a timely manner.
+- We would like to thank Amod Thakur for providing tutorial sessions.
+- Of course, it wouldn't have been possible without the teaching of Mayank, sir.
 References: https://github.com/AamodThakur/NLP_Pre_Training
