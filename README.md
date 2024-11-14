@@ -101,19 +101,23 @@ This project involves training a modified LLaMA model with fewer than 100M param
 </div>
 
 <br><br>
-![Model_training](https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071)
 
-`Fig1: model training for every 0.1 epoch`
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071" alt="model_output_for_prompts" style="height: 250px; width: auto;"/>
+  <br><i>Fig1: model training for every 0.1 epoch</i>
+</div>
 
-<br><br><br>
+<br><br>
 
 ### *Task 2.2: Model Prediction*
 
-![model_output_for_prompts](https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a" alt="model_output_for_prompts" style="height: 400px; width: auto;"/>
+  <br><i>Fig3: Prompts output</i>
+</div>
 
-`Fig3: Prompts output`
 
-
+<br><br>
 
 ### *Contributions*
 Each team member contributed significantly to both tasks, as detailed below:
@@ -121,12 +125,13 @@ Each team member contributed significantly to both tasks, as detailed below:
 - **Ramanand**: Created datasets, did Transformer model training and fine-tuning, and Git Hub documentation.
 - **Isha Jain**: Created code for tokenizers and trained tokenizers to calculate fertility scores, and Git Hub documentation.
 - **Yash Sahu**: Created tokenizers code, transformer fine-tuning, and Git Hub documentation.
-
+<br>
 
 ### *Acknowledgments*
 - Our team worked in a synchronous manner so as to not burden a single person, and get the work done more effectively and in a timely manner.
 - We would like to thank Amod Thakur for providing tutorial sessions.
 - Of course, it wouldn't have been possible without the teaching of Mayank sir.
+<br>
 
 *References:*
 1. https://github.com/AamodThakur/NLP_Pre_Training
