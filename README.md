@@ -1,19 +1,30 @@
 # NLP_Assignment_2
 
-# NLP_Team_13: Tokenizer Training and Model Training
+## NLP_Team_13: Tokenizer Training and Model Training
 
 ---
 
-## Overview
-This project addresses two main tasks: training six different tokenizers on a 10k dataset to evaluate fertility scores and fine-tuning a language model for optimized NLP performance. For Task 1, we trained six tokenizers and selected the best-performing one based on fertility scores. In Task 2, the LLaMA model architecture was adjusted to stay under 100M parameters, using the top-performing tokenizer to tokenize the dataset. Perplexity scores were recorded at every 0.1 epoch, and a matrix of scores for each epoch was created. The model was also tested on 10 prompts to evaluate its performance.
+### Overview
+This project focuses on two main tasks: training tokenizers and fine-tuning a language model for NLP performance.
+
+- **Task 1: Training Tokenizers**
+  - Trained six different tokenizers on a 10k dataset.
+  - Evaluated each tokenizer's performance using fertility scores.
+  - Selected the best-performing tokenizer based on fertility score results.
+
+- **Task 2: Fine-Tuning Language Model**
+  - Adjusted the LLaMA model architecture to stay within a 100M parameter limit.
+  - Used the top-performing tokenizer from Task 1 to tokenize the dataset.
+  - Recorded perplexity scores at every 0.1 epoch.
+  - Created a matrix of perplexity scores for each epoch.
+  - Tested the fine-tuned model on 10 prompts to evaluate performance.
+---
+
+### Project Tasks
 
 ---
 
-## Project Tasks
-
----
-
-### Task 1: Tokenizer Training
+#### Task 1: Tokenizer Training
 We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
 
 - **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/Results/NLP-%20Assignment-2_Tokenizer_Training.pdf).
@@ -35,15 +46,20 @@ Each tokenizer was evaluated on fertility, and a matrix showing fertility scores
 
 ---
 
-### Task 2: Model Training
+#### Task 2.1: Model Training
 
 ---
 The **LLaMA** model architecture was adjusted to ensure fewer than 100M parameters for efficient training. Using the SentencePieceBPETokenizer, we tokenized our dataset and trained the model, logging perplexity scores at each 0.1 epoch. A matrix of perplexity scores by epoch was generated and added to the repository. Additionally, the model was tested on 10 sample prompts, with test outputs available in the repository screenshots.
 
----
 ![Model_training](https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071)
 
 `Fig1: model training for every 0.1 epoch`
+
+---
+
+#### Task 2.2: Model Prediction
+
+---
 
 ![model_output_for_prompts](https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a)
 
@@ -57,7 +73,7 @@ The **LLaMA** model architecture was adjusted to ensure fewer than 100M paramete
 
 ---
 
-## Contributions
+### Contributions
 
 Each team member contributed significantly to both tasks, as detailed below:
 
