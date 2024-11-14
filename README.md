@@ -49,10 +49,18 @@ The **LLaMA** model architecture was adjusted to ensure fewer than 100M paramete
 
 ---
 ![Model_training](https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071)
-`Fig: model training for every 0.1 epoch`
+
+`Fig1: model training for every 0.1 epoch`
 
 ![model_output_for_prompts](https://github.com/user-attachments/assets/23f6160b-ecae-41ac-8953-12a117a5de9a)
 
+`Fig2: Prompts output`
+
+
+![training_epoch](https://github.com/user-attachments/assets/4dab3cfd-0b45-4192-ae76-cd2efeac59db)
+
+
+`Fig3: Model trained on 4.7M tokens for 10 epocs in 9 hours on 2 GPU T4`
 
 ---
 
