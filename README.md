@@ -24,7 +24,7 @@ This project focuses on two main tasks: training tokenizers and fine-tuning a la
 
 ---
 
-#### Task 1: Tokenizer Training
+### Task 1.1: Tokenizer Training
 We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
 
 - **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/Results/NLP-%20Assignment-2_Tokenizer_Training.pdf).
@@ -44,12 +44,28 @@ We trained six different tokenizers on samples from a previously scraped dataset
 
 Each tokenizer was evaluated on fertility, and a matrix showing fertility scores and dataset size was generated. This matrix, available in [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/Results/NLP-%20Assignment-2_Tokenizer_Training.pdf), showed that **SentencePieceBPETokenizer** had the lowest fertility score and was selected as the optimal tokenizer for Task 2.
 
+### Task 1.2: Dataset
+
+| Tokenizer                        | Kaggle Link                               |
+|-----------------------------------|-------------------------------------------|
+| **Hindi dataset 3k files**        | [🟩 Kaggle Link](https://www.kaggle.com/datasets/ramanand9/hindi-dataset-3k-files) |
+| **Hindi dataset 15k files**     | [🟩 Kaggle Link](https://www.kaggle.com/datasets/ramanand9/hindi-dataset-10k-files) |
+| **Hindi dataset 100k files**        | [🟩 Kaggle Link](https://www.kaggle.com/datasets/ramanand9/100k-hindi-text-files-for-nlp-task) |
+
+
+
 ---
 
-#### Task 2.1: Model Training
+### Task 2.1: Model Training
 
 ---
 The **LLaMA** model architecture was adjusted to ensure fewer than 100M parameters for efficient training. Using the SentencePieceBPETokenizer, we tokenized our dataset and trained the model, logging perplexity scores at each 0.1 epoch. A matrix of perplexity scores by epoch was generated and added to the repository. Additionally, the model was tested on 10 sample prompts, with test outputs available in the repository screenshots.
+
+
+| Model weights                     | Kaggle Link                               |
+|-----------------------------------|-------------------------------------------|
+| **Transformer weight**        | [🟩 Kaggle Link](https://www.kaggle.com/datasets/ramanand9/ps-v2-output/) |
+
 
 ![Model_training](https://github.com/user-attachments/assets/139e8689-b490-4076-9776-4986cf6d0071)
 
@@ -57,7 +73,7 @@ The **LLaMA** model architecture was adjusted to ensure fewer than 100M paramete
 
 ---
 
-#### Task 2.2: Model Prediction
+### Task 2.2: Model Prediction
 
 ---
 
@@ -96,26 +112,6 @@ Each team member contributed significantly to both tasks, as detailed below:
   - Developed comparison framework for fertility metrics evaluation.
   - Supported tokenizer selection and training script configuration.
   - Created fertility and perplexity matrix visualizations.
----
-
-## Usage
-
-1. **Install Dependencies**  
-   Run `requirements.txt` to set up the environment for tokenizer and model training.
-
-2. **Run Tasks Sequentially**  
-   - **Task 1**: Execute the tokenizer training scripts and save fertility scores to the output matrix.
-   - **Task 2**: Configure and fine-tune the LLaMA model with the selected tokenizer, logging perplexity scores.
-
-3. **Access Output Files**  
-   All relevant matrices, screenshots, and test outputs are available in the project repository for review.
-
----
-
-## Outputs
-- **Model Perplexity Matrix**: Logged in screenshots folder, showing scores for each epoch.
-- **Prompt Output Tests**: Screenshots of model responses for 10 test prompts.
-
 ---
 
 ## Acknowledgments
