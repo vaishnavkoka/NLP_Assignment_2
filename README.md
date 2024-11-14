@@ -15,17 +15,10 @@ This project addresses two main tasks: training six different tokenizers on a 10
 
 ### Task 1: Tokenizer Training
 We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
-1. **BertWordPieceTokenizer**
-2. **SentencePieceBPETokenizer**
-3. **gpt2byteleveltokenizer**
-4. **ByteLevelBPETokenizer**
-5. **SentencePieceUnigramTokenizer**
-6. **SpaCyTokenizer**
 
----
+- **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/Results/NLP-%20Assignment-2_Tokenizer_Training.pdf).
+  ![image](https://github.com/user-attachments/assets/1bcbeba8-9c55-4dd8-8151-eac9f08d13b2)
 
-### Task 1: Tokenizer Training
-We trained six different tokenizers on samples from a previously scraped dataset to evaluate performance based on fertility scores:
 
 | Tokenizer                        | Kaggle Link                               |
 |-----------------------------------|-------------------------------------------|
@@ -104,10 +97,6 @@ Each team member contributed significantly to both tasks, as detailed below:
 ---
 
 ## Outputs
-
-- **Tokenizer Fertility Scores**: See [NLP-Assignment-2_Tokenizer_Training.pdf](https://github.com/vaishnavkoka/NLP_Assignment_2/blob/main/Results/NLP-%20Assignment-2_Tokenizer_Training.pdf).
-  ![image](https://github.com/user-attachments/assets/1bcbeba8-9c55-4dd8-8151-eac9f08d13b2)
-
 - **Model Perplexity Matrix**: Logged in screenshots folder, showing scores for each epoch.
 - **Prompt Output Tests**: Screenshots of model responses for 10 test prompts.
 
