@@ -99,4 +99,11 @@ Each team member contributed significantly to both tasks, as detailed below:
 - Our team worked in a synchronous manner so as to not burden a single person, and get the work done more effectively and in a timely manner.
 - We would like to thank Amod Thakur for providing tutorial sessions.
 - Of course, it wouldn't have been possible without the teaching of Mayank, sir.
-References: https://github.com/AamodThakur/NLP_Pre_Training
+
+References: 
+1. https://github.com/AamodThakur/NLP_Pre_Training
+2. https://huggingface.co/learn/nlp-course/en/chapter2/4
+3. https://huggingface.co/learn/nlp-course/en/chapter7/6
+4. https://colab.research.google.com/drive/1YGVg_wM_pYjrsXwVtTxm5Qr1KiHecETO?usp=sharing
+5. https://colab.research.google.com/drive/1K4OT3t_eLepT33uutRpjbONrz_hjoLAM?usp=sharing
+6. https://drive.google.com/drive/folders/10-YOfp70fn9TOUZJ5FVLk-anfw_T8A0X
