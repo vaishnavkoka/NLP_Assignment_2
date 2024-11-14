@@ -100,7 +100,7 @@ Each team member contributed significantly to both tasks, as detailed below:
 ### Acknowledgments
 - Our team worked in a synchronous manner so as to not burden a single person, and get the work done more effectively and in a timely manner.
 - We would like to thank Amod Thakur for providing tutorial sessions.
-- Of course, it wouldn't have been possible without the teaching of Mayank, sir.
+- Of course, it wouldn't have been possible without the teaching of Mayank sir.
 
 References: 
 1. https://github.com/AamodThakur/NLP_Pre_Training
