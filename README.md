@@ -29,7 +29,7 @@ We trained six different tokenizers on samples from a previously scraped dataset
 
 | Tokenizer                        | Kaggle Link                               |
 |-----------------------------------|-------------------------------------------|
-| **BertWordPieceTokenizer**        | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
+| **BertWordPieceTokenizer**        | [🟩 Kaggle Link](https://www.kaggle.com/code/vaishnavkoka24310069/bertwordpiecetokenizer/) |
 | **SentencePieceBPETokenizer**     | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
 | **gpt2byteleveltokenizer**        | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
 | **ByteLevelBPETokenizer**         | [🟩 Kaggle Link](https://www.kaggle.com/your-kaggle-link) |
